@@ -1,4 +1,9 @@
 Translate::Application.routes.draw do
+  controller :korean do
+    get 'ko' => :index
+    get 'ko/translate' => :translate
+  end
+
   controller :english do
     get 'en' => :index
     get 'en/translate' => :translate

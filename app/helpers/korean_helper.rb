@@ -1,0 +1,2 @@
+module KoreanHelper
+end
