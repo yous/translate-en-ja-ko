@@ -1,4 +1,9 @@
 Translate::Application.routes.draw do
+  controller :english do
+    get 'en' => :index
+    get 'en/translate' => :translate
+  end
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
